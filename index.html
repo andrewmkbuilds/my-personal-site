@@ -4,55 +4,267 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About Me - Andrew Mathews</title>
+    <title>Andrew Mathews | Developer & Tech Enthusiast</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navigation -->
     <header>
-        <h1>My Personal Site</h1>
+        <nav class="navbar">
+            <h2 class="logo">Andrew<span>.</span></h2>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
 
-    <div class="panel">
 
-        <section id="about">
-            <h1 id="title">Welcome to My Personal Page!</h1>
+    <!-- Hero Section -->
+    <section class="hero">
 
-            <div class="intro">
-                <p>
-                    Hi, I'm Andrew Mathews, a student at The Indian High School, Dubai.
-                    I'm passionate about coding, web development, artificial intelligence,
-                    robotics, and technology. I enjoy building websites and apps,
-                    participating in STEM competitions, and exploring new ideas.
-                </p>
+        <div class="hero-text">
+            <p class="small-text">HELLO, I'M</p>
 
-                <a href="https://github.com/andrewmkbuilds">
-                    Visit My GitHub
-                </a>
+            <h1>Andrew <span>Mathews</span></h1>
 
-                <br><br>
-
-                <img src="profile.jpg" alt="A picture of Andrew">
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2>My Projects</h2>
+            <h2>Developer • Student • Tech Enthusiast</h2>
 
             <p>
-                I have worked on websites, apps, robotics projects,
-                AI projects, and other technology-related projects.
+                I enjoy building websites, apps, AI projects and robotics
+                projects while learning something new every day.
             </p>
-        </section>
 
-    </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="button">View My Projects</a>
+                <a href="#contact" class="button secondary">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="A picture of Andrew">
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <p class="section-label">ABOUT ME</p>
+
+        <h2>Who Am I?</h2>
+
+        <div class="about-box">
+
+            <div>
+                <h3>A student who loves technology.</h3>
+
+                <p>
+                    Hi! I'm Andrew, a student at The Indian High School, Dubai.
+                    I'm interested in coding, artificial intelligence,
+                    robotics, web development and cybersecurity.
+                </p>
+
+                <p>
+                    I enjoy turning ideas into real projects and participating
+                    in STEM competitions and technology events.
+                </p>
+            </div>
+
+            <div class="about-facts">
+                <p>📍 Dubai, UAE</p>
+                <p>💻 Web Development</p>
+                <p>🤖 Robotics</p>
+                <p>🧠 Artificial Intelligence</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <p class="section-label">MY WORK</p>
+
+        <h2>Featured Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <div class="project-icon">🌐</div>
+
+                <h3>ClientFlow OS</h3>
+
+                <p>
+                    A client management platform designed for freelancers,
+                    agencies and small teams.
+                </p>
+
+                <a href="#">Learn More →</a>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-icon">🏎️</div>
+
+                <h3>Horizon Motorsports</h3>
+
+                <p>
+                    A STEM Racing project combining engineering, design,
+                    technology and motorsport.
+                </p>
+
+                <a href="#">Visit Website →</a>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-icon">🤖</div>
+
+                <h3>AI Projects</h3>
+
+                <p>
+                    Experiments and projects exploring artificial intelligence,
+                    automation and useful AI tools.
+                </p>
+
+                <a href="#">Explore →</a>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-icon">💧</div>
+
+                <h3>Water Conservation</h3>
+
+                <p>
+                    A technology-based project using sensors and data to
+                    monitor and reduce water usage.
+                </p>
+
+                <a href="#">View Project →</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <p class="section-label">WHAT I USE</p>
+
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Python</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">AI</div>
+            <div class="skill">Robotics</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">Web Development</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+
+        <p class="section-label">MY BLOG</p>
+
+        <h2>Things I'm Learning</h2>
+
+        <div class="blog-grid">
+
+            <article class="blog-card">
+
+                <p class="blog-date">01 • Learning</p>
+
+                <h3>My Journey Into Web Development</h3>
+
+                <p>
+                    Learning how HTML and CSS work together to create websites.
+                </p>
+
+            </article>
+
+
+            <article class="blog-card">
+
+                <p class="blog-date">02 • Technology</p>
+
+                <h3>Building My First AI Projects</h3>
+
+                <p>
+                    Exploring how artificial intelligence can be used to
+                    solve real-world problems.
+                </p>
+
+            </article>
+
+
+            <article class="blog-card">
+
+                <p class="blog-date">03 • Robotics</p>
+
+                <h3>Learning Robotics</h3>
+
+                <p>
+                    Experimenting with motors, sensors and programmable robots.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Let's Build Something Cool.</h2>
+
+        <p>
+            Have an idea, project or just want to talk about technology?
+            Feel free to reach out.
+        </p>
+
+        <a href="mailto:your-email@example.com" class="button">
+            Email Me
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>Andrew<span>.</span></h3>
+
+        <p>Built with HTML & CSS 🚀</p>
+
+        <p>© 2026 Andrew Mathews</p>
+
+    </footer>
 
 </body>
 </html>
